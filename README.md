@@ -131,17 +131,3 @@ extract_members_parallel ──┴── validate_iceberg_staging
 3. Set up Athena workgroup for validation queries
 4. Configure Redshift cluster — node type, WLM queue definitions
 5. Deploy Airflow DAG to MWAA and set connections: `aws_default`, `redshift_prod`
-
----
-
-## Based On
-
-Real work for **Cigna Health** via HGS — Nov 2019 to Aug 2020. Migrated claims and member data from SQL Server + MySQL into Amazon Redshift with full auditability and zero data loss. The Redshift layer became the primary analytical foundation for Cigna's BI reporting and ML feature engineering teams.
-
----
-
-## Author
-
-**Premchand Kothapalli**
-Senior AI / ML Engineer | AWS · Azure AI Foundry · LangGraph · PySpark
-[LinkedIn](https://linkedin.com/in/pc-kothapalli) · premchandkdata@gmail.com · [GitHub](https://github.com/premchand2001)
